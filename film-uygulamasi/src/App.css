@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  background-color: #bdc3c7;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-card {
+  width: 24%; /* Filmleri dörderli olarak sıralamak için yüzde değeri */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+
+.movie-card h2 {
+  text-decoration: none;/* Film isimlerinin altındaki çizgileri kaldırır */
+ 
+}
+
+
+
